@@ -1,0 +1,169 @@
+.tudo{
+
+    background-image: linear-gradient( to right, black, rebeccapurple, black );
+
+
+
+
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-bottom: 100px;
+
+
+}
+
+.todos{
+    margin-left: 25px;
+}
+
+.box{
+    justify-content: center;
+    width: 638px;
+    height: 1050px;
+    background-color: #8635C5;
+    align-items: center;
+
+
+
+}
+
+.branco{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 585px;
+    height: 96px;
+    background-color: white;
+    align-items: center;
+    margin-top: 22px;
+
+
+
+
+}
+
+
+
+.botoes{
+
+    width: 44px;
+    height: 44px;
+    border: none;
+
+
+
+}
+
+.btn{
+    border: none;
+    justify-self: left;
+    padding-right: 10px;
+
+}
+
+.alinharbtn{
+    justify-content: center;
+}
+
+.midias{
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    padding-right: 50px;
+
+
+}
+
+.voltar{
+
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    border: none;
+}
+
+.play{
+
+    justify-content: center;
+    width: 46px;
+    height: 45px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.proxima{
+
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+    border: none;
+
+}
+
+.org{
+
+    background-color: #A389F6;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+
+
+}
+
+.add{
+    background-color: #A389F6;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+
+
+
+}
+
+.organizar{
+    margin-left: 30px;
+}
+
+.texto{
+
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+}
+
+.adc{
+    background-color: #A389F6;
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}

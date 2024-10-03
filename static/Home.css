@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../static/image/background.png");
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.download {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.download input {
+    padding: 10px;
+    font-size: 18px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.textoHeader {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textoBody {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 900px;
+    margin-left: 120px;
+      font-family: "Poppins", sans-serif;
+}
+
+.tetxo2 {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.download-btn {
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: purple;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.texto-footer {
+    color: white;
+    text-align: center;
+    justify-content: center;
+     font-family: "Poppins", sans-serif;
+}

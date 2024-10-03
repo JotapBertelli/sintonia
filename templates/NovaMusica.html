@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nova música</title>
+
+    <link rel="stylesheet" href="../static/estilonova.css">
+</head>
+<body>
+    <div class="imagem-logo">
+        <img src="/static/image/logo.png" alt="Logo">
+    </div>
+    <div class="esp-btn">
+        <button onclick='window.location.href="/player" +
+         ""' type="submit" class="btn1 voltar">VOLTAR</button>
+    </div>
+    <div class="sintonia-container">
+      <div>
+        <h2>NOVA MÚSICA</h2>
+      </div>
+      <form class="sintonia-form">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="link-youtube">Link do youtube:</label>
+          <input type="text" id="link-youtube" name="link-youtube" class="form-control">
+        </div>
+          <div class="esp-button">
+              <button type="button" onclick='window.location.href="/playlist" +
+         ""'  class="btn btn-primary" >SALVAR</button>
+          </div>
+
+      </form>
+
+    </div>
+</body>
+</html>
